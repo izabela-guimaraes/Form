@@ -8,7 +8,7 @@
 
 
 
-<h4>To see other projects, click here<a href="https://github.com/izabela-guimaraes/yoga-interface" target="blank">click here</a></h4>
+<h4>To see other projects, <a href="https://github.com/izabela-guimaraes/yoga-interface" target="blank">click here</a></h4>
 
 🚀 Technologies
 This project was developed with the following technologies:
