@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family = Nunito: wght @ 200 & display = swap " rel=" stylesheet ">
+</head>
+
+<body>
+
+    <div id="container">
+        <p>Cadastro</p>
+
+        <form method="POST" enctype="multipart/form-data">
+
+            <label>
+                Nome:
+                <input class="input" type="text" name="nome" placeholder="Digite aqui seu nome" autofocus>
+            </label>
+
+            <label>
+                Email:
+                <input id="email" type="email" name="email" autocomplete="email" placeholder="Digite aqui seu email">
+            </label>
+
+            <label>
+                Idade:
+                <input id="age" type="number" name="Idade" minlength="12" placeholder="Digite aqui sua idade">
+            </label>
+
+            <label>
+                Data de nascimento
+                <input id="birth" type="date" name="Data">
+            </label>
+
+            <label id="checkbox">
+                Onde você possui conta:
+                <br>
+                <input class="checkbox" type="checkbox" name="Facebook"> Facebook
+                <input class="checkbox" type="checkbox" name="youtube">youtube
+                <input class="checkbox" type="checkbox" name="Instagram">Instagram
+            </label>
+
+            <label>
+                Sexo:
+                <input type="radio" name="opção">Feminino
+                <input type="radio" name="opção">Masculino
+            </label>
+
+            <label>
+                Cor dos olhos:
+                <input type="color">
+            </label>
+
+            <label>Biografia<textarea></textarea></label>
+
+           
+            <label>
+                Foto do perfil: 
+                <input type="file" name="arquivo" multiple accept="image/*">
+            </label>
+
+            <label>
+                Telefone
+                <input id="number-fone" name="numero" type="number" autocomplete="tel" placeholder="ex:(00)00000-0000"
+                    inputmode="numeric">
+            </label>
+
+            <label > 
+                Link do perfil do Facebook
+
+                 <input id="profile-picture" type="url" name="link"> 
+            </label>
+
+            <label id="password">
+                Senha:
+                <input id="password" type="password" nome="Senha" minlength="6" maxlength="8" name="senha">
+            </label>
+
+            <button id="button-submit" type="submit" value="enviar" name="enviar">Enviar</button>
+            <button id="button-reset" type="reset" value="botao" name="apagar"> Limpar dados</button>
+
+        </form>
+    </div>
+</body>
+</html>

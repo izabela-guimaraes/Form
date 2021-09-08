@@ -1,0 +1,61 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+
+#container{
+    border: 6px solid violet;
+    background-color: #E9C6D9;
+    margin:  50px 500px 50px 500px;
+}
+
+p{
+    font-size: 30px;
+   margin: 20px 0 20px 0;
+   text-align: center; 
+}
+ 
+label{
+    display: block;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 15px;
+}
+
+textarea{
+    display: block;
+    margin: 15px solid  ;
+}
+
+#checkbox{
+    line-height: 25px;
+}
+input{
+    border: 1px solid #DA1AF5;
+    background-color: #EDDAF5;
+    margin-top: 10px;
+}
+
+button{
+    height: 35px;
+    width: 140px;
+    margin-left: 13px;
+  background-color:#D06BED;
+  margin-bottom: 25px;
+}
+
+#button-submit:hover{
+    background-color: greenyellow;
+    height: 40px;
+    width: 145px;
+    font-size: 15px;
+}
+#button-reset:hover{
+    background-color: red;
+    height: 40px;
+    width: 145px;
+    font-size: 15px;
+}
